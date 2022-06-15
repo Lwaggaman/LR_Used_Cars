@@ -9,7 +9,7 @@ I set out to analyze used car listings from around big urban areas with prices b
 ##### Data Wrangling
 - Since some of the features were highly correlated, I used an iterative imputer to deal with some missing values for the 'Mileage' and 'Highway MPG' variables.
 - I used Levenshtein Distance to match the MSRP data to the used car listings data.
-#####Model Selection
+##### Model Selection
 - The data was split into train/test subsets and scaled for testing of models with regularization.
 - LR, Lasso, Ridge, and Elastic Net models were trained and cross validated for different parameters. These were then compared with metrics like adj. R^2, MSE, and MEA. 
 - Shap values were calculated to see the influence of each individual feature on the performance of the model prediction.
