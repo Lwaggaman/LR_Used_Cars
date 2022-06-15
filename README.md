@@ -1,6 +1,6 @@
 # LR_Project
 ## Linear Regression Project Description
-This project consists of a linear regression model to predict the price of used cars. The accompanying blog post can he found [here](https://medium.com/@laura.waggaman/predicting-price-of-used-cars-baaa867f9ea9?source=friends_link&sk=1f871b19fa9495751bbc4414f8e69243).
+This project consists of a linear regression model to predict the price of used cars. The accompanying blog post can be found [here](https://medium.com/@laura.waggaman/predicting-price-of-used-cars-baaa867f9ea9?source=friends_link&sk=1f871b19fa9495751bbc4414f8e69243).
 
 #### Data & Design
 I set out to analyze used car listings from around big urban areas with prices between $5.000 and $50.000. Selenium crawler compiled listings on 11809 used cars with 19 features, and the price of the new version of each car was merged. I dropped variables that had more than half missing data. Some features could be further broken down into individual ones, for example, '2019 Honda Civic' was split into Year/Make/Model, and '6 Cyl Engine 2.5Lt' into 'Cylinders' and 'Engine Size'. Categorical non-numeric variables were converted into binary dummy variables. 
